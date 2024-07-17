@@ -1,0 +1,6 @@
+framework module TestLibrary317 {
+  umbrella header "TestLibrary317.h"
+  export *
+
+  module * { export * }
+}

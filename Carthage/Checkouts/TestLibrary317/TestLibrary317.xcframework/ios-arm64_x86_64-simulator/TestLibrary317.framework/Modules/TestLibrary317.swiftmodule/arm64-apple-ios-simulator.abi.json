@@ -1,0 +1,107 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestLibrary317",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Demo",
+        "printedName": "Demo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Demo",
+                "printedName": "TestLibrary317.Demo",
+                "usr": "s:14TestLibrary3174DemoC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TestLibrary3174DemoC6sharedACvpZ",
+            "mangledName": "$s14TestLibrary3174DemoC6sharedACvpZ",
+            "moduleName": "TestLibrary317",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Demo",
+                    "printedName": "TestLibrary317.Demo",
+                    "usr": "s:14TestLibrary3174DemoC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TestLibrary3174DemoC6sharedACvgZ",
+                "mangledName": "$s14TestLibrary3174DemoC6sharedACvgZ",
+                "moduleName": "TestLibrary317",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "print",
+            "printedName": "print()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TestLibrary3174DemoC5printyyF",
+            "mangledName": "$s14TestLibrary3174DemoC5printyyF",
+            "moduleName": "TestLibrary317",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14TestLibrary3174DemoC",
+        "mangledName": "$s14TestLibrary3174DemoC",
+        "moduleName": "TestLibrary317",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
