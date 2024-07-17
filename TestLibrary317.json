@@ -1,5 +1,7 @@
 {
   "1.0.0": {
-    "ios": "https://github.com/rohan317-srti/TestLibrary317/releases/download/1.0.0/TestLibrary317.xcframework.zip"
+    "ios": {
+      "url" : "https://github.com/rohan317-srti/TestLibrary317/releases/download/1.0.0/TestLibrary317.xcframework.zip"
+    }
   }
 }
